@@ -20,5 +20,7 @@ public class Baekjoon_14681 {
 		else if(x<0 && y>0) System.out.println("2");
 		else if(x<0 && y<0) System.out.println("3");
 		else if(x>0 && y<0) System.out.println("4");
+		
+		scanner.close();
 	}
 }

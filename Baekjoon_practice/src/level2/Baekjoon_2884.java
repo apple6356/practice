@@ -22,8 +22,9 @@ public class Baekjoon_2884 {
 			if(H == 0) H = 23;
 			else H = H - 1;
 		}
-		else H = H - 1;
 		
 		System.out.println(H + " " + M);
+		
+		scanner.close();
 	}
 }

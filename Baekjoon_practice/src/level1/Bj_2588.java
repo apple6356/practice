@@ -25,5 +25,7 @@ public class Bj_2588 {
 		System.out.println(a*b2);
 		System.out.println(a*b3);
 		System.out.println(a*b);
+		
+		scanner.close();
 	}
 }
