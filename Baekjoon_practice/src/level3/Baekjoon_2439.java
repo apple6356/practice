@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-// º° ¿À¸¥ÂÊ Á¤·ÄÇØ¼­ Ãâ·Â
+// ë³„ ì°ê¸°
 public class Baekjoon_2439 {
 	public static void main(String[] args) throws NumberFormatException, IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
