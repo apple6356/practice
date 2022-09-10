@@ -2,7 +2,7 @@ package level3;
 
 import java.util.*;
 
-// ¿µ¼öÁõ È®ÀÎ
+// ì˜ìˆ˜ì¦
 public class Baekjoon_25304 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);

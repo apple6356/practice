@@ -2,7 +2,7 @@ package level1;
 
 import java.util.*;
 
-// a, b »çÄ¢¿¬»ê Ç¥Çö 
+// a, b ì‚¬ì¹™ì—°ì‚° ì¶œë ¥
 public class Bj_10869 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);

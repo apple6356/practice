@@ -2,19 +2,18 @@ package level1;
 
 import java.util.*;
 
-// ¼¼ ÀÚ¸®¼ö * ¼¼ ÀÚ¸®¼ö °ö¼À °úÁ¤ Ç¥Çö 
+// ì„¸ ìë¦¬ìˆ˜ ê³±ì…ˆ ê³¼ì • ì¶œë ¥í•˜ê¸°
 public class Bj_2588 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		int a, b, b1, b2, b3;	// b1, b2, b3 bÀÇ °¢ ÀÚ¸®¼ö »ğÀÔ À§ÇØ »ı¼º
+		int a, b, b1, b2, b3;
 		
 		a = scanner.nextInt();
 		b = scanner.nextInt();
 		
-		int bc = b;	// b º¹»ç
+		int bc = b;
 		
-		// bÀÇ °¢ ÀÚ¸®¼ö ¹èÁ¤
 		b1 = bc % 10;
 		bc /= 10;
 		b2 = bc % 10;

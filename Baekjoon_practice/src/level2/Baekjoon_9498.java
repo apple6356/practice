@@ -2,7 +2,7 @@ package level2;
 
 import java.util.*;
 
-// ½ÃÇè ¼ºÀû¿¡ µû¶ó ÇÐÁ¡ ºÐ·ù
+// ì‹œí—˜ ì„±ì 
 public class Baekjoon_9498 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -10,7 +10,7 @@ public class Baekjoon_9498 {
 		int a;
 		
 		while(true) {
-			System.out.print("0~100»çÀÌÀÇ Á¤¼ö ÀÔ·Â : ");
+			System.out.print("0~100ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ : ");
 			a = scanner.nextInt();
 			if((a>=0) && (a<=100)) break;
 		}

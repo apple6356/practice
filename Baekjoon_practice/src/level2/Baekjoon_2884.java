@@ -2,7 +2,7 @@ package level2;
 
 import java.util.Scanner;
 
-// ¾Ë¶÷ ½Ã°è ¼³Á¤ ½Ã°£º¸´Ù 45 ÀüÀ¸·Î ¼³Á¤
+// 45ë¶„ ì „ ì‹œê°„ìœ¼ë¡œ ì¶œë ¥í•˜ê¸°
 public class Baekjoon_2884 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);

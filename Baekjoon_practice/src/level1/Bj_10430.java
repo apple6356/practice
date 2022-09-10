@@ -2,7 +2,7 @@ package level1;
 
 import java.util.*;
 
-// Ã¹Â° ÁÙ¿¡ (A+B)%C, µÑÂ° ÁÙ¿¡ ((A%C) + (B%C))%C, ¼ÂÂ° ÁÙ¿¡ (A¡¿B)%C, ³İÂ° ÁÙ¿¡ ((A%C) ¡¿ (B%C))%C¸¦ Ãâ·Â 
+// ì²«ì§¸ ì¤„ì— (A+B)%C, ë‘˜ì§¸ ì¤„ì— ((A%C) + (B%C))%C, ì…‹ì§¸ ì¤„ì— (AÃ—B)%C, ë„·ì§¸ ì¤„ì— ((A%C) Ã— (B%C))%Cë¥¼ ì¶œë ¥
 public class Bj_10430 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
