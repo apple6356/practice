@@ -10,7 +10,6 @@ public class Baekjoon_9498 {
 		int a;
 		
 		while(true) {
-			System.out.print("0~100������ ���� �Է� : ");
 			a = scanner.nextInt();
 			if((a>=0) && (a<=100)) break;
 		}
