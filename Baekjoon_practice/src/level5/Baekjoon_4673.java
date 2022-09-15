@@ -8,6 +8,7 @@ import java.io.OutputStreamWriter;
 public class Baekjoon_4673 {
 	public static int d(int n) {
 		int result=n;
+		
 		if(n>0) result = result + (n % 10);
 		if(n>=10) result = result + (n % 100 / 10);
 		if(n>=100) result = result + (n % 1000 / 100);
