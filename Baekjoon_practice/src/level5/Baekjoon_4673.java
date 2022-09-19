@@ -24,7 +24,7 @@ public class Baekjoon_4673 {
 		int r;
 		
 		for(int i=1; i<10001; i++) {
-			r = Baekjoon_4673.d(i);
+			r = d(i);
 			if(r>10000) continue;
 			sn[r] = 1;
 		}

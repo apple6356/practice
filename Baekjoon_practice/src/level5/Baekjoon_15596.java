@@ -29,7 +29,7 @@ public class Baekjoon_15596 {
 			a[i] = Integer.parseInt(st.nextToken());
 		}
 		
-		long sum = Baekjoon_15596.sum(a);
+		long sum = sum(a);
 		
 		bw.write(String.valueOf(sum));
 		bw.flush();
