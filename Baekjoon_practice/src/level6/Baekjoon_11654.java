@@ -12,5 +12,6 @@ public class Baekjoon_11654 {
 		int ch = str.charAt(0);
 		
 		System.out.println(ch);
+		sc.close();
 	}
 }

@@ -6,24 +6,16 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-// 숫자의 합
-public class Baekjoon_11720 {
+// 단어의 개수
+public class Baekjoon_1152 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
-		int n = Integer.parseInt(br.readLine());
-		int sum = 0;
-		String str;
-		while(true) {
-			str = br.readLine();
-			if(str.length() <= n) break;
-		}
+		String s = br.readLine();
+		String[] sArr = s.split("\\s+");	// 하나 이상의 공백과 일치하면 문자열 분할
 		
-		for(int i=0; i<str.length(); i++) {
-			sum = sum + Integer.parseInt(str.substring(i, i+1));
-		}
-		bw.write(String.valueOf(sum));
+		bw.write(String.valueOf(sArr.length));
 		bw.flush();
 		bw.close();
 	}

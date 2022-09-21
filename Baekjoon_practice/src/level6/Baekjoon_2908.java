@@ -6,24 +6,23 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-// 숫자의 합
-public class Baekjoon_11720 {
+public class Baekjoon_2908 {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
-		int n = Integer.parseInt(br.readLine());
-		int sum = 0;
-		String str;
-		while(true) {
-			str = br.readLine();
-			if(str.length() <= n) break;
+		String s = br.readLine();
+		String sr = "";
+		
+		for(int i=s.length()-1; i>=0; i--) {
+			sr = sr + s.charAt(i);
 		}
 		
-		for(int i=0; i<str.length(); i++) {
-			sum = sum + Integer.parseInt(str.substring(i, i+1));
-		}
-		bw.write(String.valueOf(sum));
+		String[] sArr = sr.split("\\s+");
+		
+		if(Integer.parseInt(sArr[0]) > Integer.parseInt(sArr[1])) bw.write(sArr[0]);
+		if(Integer.parseInt(sArr[0]) < Integer.parseInt(sArr[1])) bw.write(sArr[1]);
+		
 		bw.flush();
 		bw.close();
 	}
