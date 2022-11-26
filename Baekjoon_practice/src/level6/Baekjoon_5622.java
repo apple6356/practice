@@ -46,6 +46,6 @@ public class Baekjoon_5622 {
 		bw.write(String.valueOf(t));
 		
 		bw.flush();
-		bw.close();
+		bw.close(); 
 	}
 }
